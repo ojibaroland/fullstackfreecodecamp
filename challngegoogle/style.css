@@ -20,6 +20,7 @@
 }
 
 input {
+    background-color: red;
     width: 58%;
     height: 32px;
     border-radius: 1.5em;
