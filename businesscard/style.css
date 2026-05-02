@@ -1,0 +1,30 @@
+.maincon{
+    width: 100wv;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 43%;
+    background-color: rgb(156, 216, 228);
+    border-bottom: 10px solid rgb(196, 181, 229);
+}
+
+img{
+    width: 130px;
+    height: 133px;
+    border-radius: 0.3em;
+}
+
+.text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
