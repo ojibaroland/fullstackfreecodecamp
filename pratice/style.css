@@ -1,3 +1,11 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
 .red-circle {
     height: 150px;
     width: 150px;
@@ -7,5 +15,5 @@
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 100px; */
-    margin: 40px 0 0 100px;
+    margin: 100px auto;
 }

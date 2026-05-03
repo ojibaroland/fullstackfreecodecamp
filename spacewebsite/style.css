@@ -1,0 +1,16 @@
+body {
+    color: #fff;
+    background-image: url("space.jpg");
+    background-size: cover;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+
+.btn {
+    background: white;
+    padding: 6px 12px;
+    font-size: medium;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+}
