@@ -1,11 +1,15 @@
 body {
     color: #fff;
-    background-image: url("space.jpg");
+    background-image: url("giphy.webp");
     background-size: cover;
     font-family: "Orbitron", sans-serif;
     text-align: center;
 }
 
+#logo {
+    width: 120px;
+    height: 30px;
+}
 
 .btn {
     background: white;
@@ -14,3 +18,8 @@ body {
     border: none;
     font-family: "Orbitron", sans-serif;
 }
+
+.underline {
+    border-bottom: 4px solid white;
+}
+

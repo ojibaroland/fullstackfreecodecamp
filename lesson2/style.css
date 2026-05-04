@@ -1,4 +1,4 @@
-.card {
+/* .card {
     color: #222222;
     background: lightgray;
     width: 300px;
@@ -17,4 +17,22 @@
     font-weight: 600;
     border: 1px solid black;
     border-radius: 1.2em;
+ } */
+
+ body {
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Rammetto One', cursive;
  }
+
+ .ad {
+    background: #35654d;
+    border: 5px solid #A3BC71;
+    text-align: center;
+ }
+
+.cta {
+    border: 2px solid #A3BC71;
+    padding: 4px 10px;
+    background: #8F4737;
+}
