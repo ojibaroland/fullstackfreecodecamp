@@ -1,9 +1,21 @@
 body {
-    color: #fff;
+    margin: 0px;
+}
+
+.main-body {
+    color: #A75D18;
+    height: 600px;
     background-image: url("giphy.webp");
     background-size: cover;
     font-family: "Orbitron", sans-serif;
     text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+
+}
+
+#title{
+    text-shadow: 0px 0px 4px #000;
 }
 
 #logo {
@@ -12,14 +24,29 @@ body {
 }
 
 .btn {
-    background: white;
+    background: #B18A56;
     padding: 6px 12px;
+    margin-right: 10px;
     font-size: medium;
     border: none;
     font-family: "Orbitron", sans-serif;
+    color: #6A2200;
 }
 
 .underline {
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #74451e;
 }
+
+.hero {
+    font-size: xx-large;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    color:  rgb(9, 121, 173);
+    text-align: center;
+    background-color:#A75D18;
+    /* margin-top: -24px; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 

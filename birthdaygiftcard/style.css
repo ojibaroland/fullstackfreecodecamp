@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height:100vh;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding-top: 30px;
+    font-family: "Happy Monkey", system-ui;
+}
+
+img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50em;
+}
