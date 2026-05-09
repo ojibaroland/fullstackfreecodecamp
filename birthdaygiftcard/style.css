@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, p {
 
 h2, h4 {
     background-color: #EFB0C9;
+    padding: 3px 5px;
+    border-radius: .2em;
+    margin: -4px;
 }
 
 img{
