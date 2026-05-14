@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    color: rgb(69, 62, 62);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#count-el{
+    font-size: 70px;
+}
+
+#result-el{
+    font-size: 50px;
+    background-color: rgb(111, 139, 67);
+    width: 100px;
+    text-align: center;
+    border-radius: 0.2em;
+    border: 1px solid rgb(94, 139, 3);
+}
+
+#increment-btn {
+    background-color: darkred;
+    color: white;
+    padding: 5px 25px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#decrease-btn{
+    background-color: darkred;
+    color: white;
+    margin-top: 10px;
+    padding: 5px 25px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#clear-btn{
+    background-color: rgb(69, 64, 36);
+    color: white;
+    margin-top: 10px;
+    padding: 5px 25px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
