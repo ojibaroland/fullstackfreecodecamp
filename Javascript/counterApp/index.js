@@ -7,6 +7,8 @@
 // initialize the count as zero
 
 let countEl = document.getElementById("count-el");
+let resultEl = document.getElementById("result-el");
+
 
 let count = 0;
 
@@ -20,29 +22,21 @@ function decrease() {
     count--;
     countEl.innerText = count;
     } else {
-        count = 0
+        count = 0;
     }
 }
 
 function refresh() {
     count = 0;
     countEl.innerText = count;
+    resultEl.innerText = "Previous Entries:"
     console.log(5)
 }
 
 
 function save() {
-    document.getElementById("result-el").innerText = count;
+    let result = ` ${count} - `;
+    resultEl.innerText += result;
 }
-
-
-
-
-
-
-
-
-
- 
 
 

@@ -18,8 +18,8 @@ h1 {
 
 #result-el{
     font-size: 50px;
-    background-color: rgb(111, 139, 67);
-    width: 100px;
+    /* background-color: rgb(111, 139, 67); */
+    width: 100wv;
     text-align: center;
     border-radius: 0.2em;
     border: 1px solid rgb(94, 139, 3);
