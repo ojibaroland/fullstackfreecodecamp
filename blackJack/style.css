@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1 {
+    color: goldenrod;
+    font-size: 40px;
+}
+
+p{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+#startbtn {
+    display: block;
+    width: 25%;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 0.1em;
+    background-color: goldenrod;
+    font-size: 15px;
+    font-weight: bold;
+    color: #016f32;
+    box-shadow: 5px 4px 10px 3px;
+}
+
+#newcardbtn {
+    display: none;
+    width: 25%;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 0.1em;
+    background-color: goldenrod;
+    font-size: 15px;
+    font-weight: bold;
+    color: #016f32;
+    box-shadow: 5px 4px 10px 3px;
+}
+
+#newbtn {
+    display: none;
+    width: 25%;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 0.1em;
+    background-color: #016f32;
+    box-shadow: 1px 1px 1px 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: goldenrod;
+}

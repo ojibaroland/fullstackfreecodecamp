@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+#fightButton {
+    margin-top: 100px;
+    background-color: orange;
+    width: 20%;
+    height: 26px;
+    color: black;
+    border: none;
+    border-radius: 0..4em;
+}
