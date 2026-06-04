@@ -5,17 +5,20 @@ let myLeads = [];
 
 let num = 0;
 
-saveButton.addEventListener("click", function() {
+saveButton.addEventListener("click", function () {
     myLeads.push(inputEl.value);
-    let listItems = `<li> ${inputEl.value} </li>`;
-    ulEl.innerHTML += listItems;
-    inputEl.value = " "
-    // for(i=0; i<myLeads.length; i++){
-    //     listItems += `<li> ${myLeads[i]} </li>`
-    // }
-    // inputEl.value = "";
-    // ulEl.innerHTML = listItems;
-    // console.log(listItems)
+    let listItems = "";
+    // ulEl.innerHTML += listItems;
+    for (i = 0; i < myLeads.length; i++) {
+        listItems +=
+            `<li>
+               <a href="${myLeads[i]}" target="_blank">
+               ${myLeads[i]} </a>
+            </li>`
+    }
+    ulEl.innerHTML = listItems;
+    inputEl.value = "";
+    console.log(listItems)
 })
 
 // const containerEl = document.getElementById("container");
